@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", serif;
+}
+
+.wholeContent-div {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.radios {
+    display: flex;
+    gap: 25px;
+    margin-top: 5px;
+}
+
+
+form {
+    display: inline-block;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.main-div{
+    border: 1px solid black;
+    padding: 40px 45px;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+label {
+    font-size: 1.1rem;
+}
+
+.input-cls {
+    width: 220px;
+    padding: 5px 0;
+    padding-left: 5px;
+}
+
+.btn {
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all ease 0.15s;
+}
+
+.btn-exit {
+    width: 100%;
+    padding: 10px 30px;
+    margin-top: 10px;
+
+    font-size: 1.2rem;
+
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.js-pass{
+    text-align: center;
+    border: 1px solid  black;
+    padding: 10px 30px;
+    margin-top: 10px;
+
+    font-weight: bold;
+}
+
+.js-title {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hide {
+    display: none;
+}
+
+.message {
+    font-size: 0.8rem;
+    color: red;
+}
+
+footer {
+    margin-top: 15px;
+    display: flex;
+    gap: 20px;
+}
+
+a i {
+    font-size: 25px;
+}
